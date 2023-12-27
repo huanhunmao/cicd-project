@@ -16,10 +16,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Use Node.js version 20
+      - name: Use Node.js version 16
         uses: actions/setup-node@v2
         with:
-          node_version: '20'
+          node_version: '16'
 
       - name: Install dependencies
         run: npm install
